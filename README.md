@@ -9,7 +9,7 @@ VisibleIO Local is an offline Blender extension. It builds material combinations
 Use it when a product needs many material options and each option should be a still image next to the `.blend` file.
 
 <p align="center">
-  <a href="visibleio_local-1.0.0.zip">
+  <a href="https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.0.zip">
     <img alt="Download visibleio_local-1.0.0.zip for Blender 4.2 or newer" src="download.png" width="360">
   </a>
 </p>
@@ -30,7 +30,7 @@ Website: [https://visibleio.com](https://visibleio.com)
 
 Requires Blender 4.2 or newer.
 
-1. Download [visibleio_local-1.0.0.zip](visibleio_local-1.0.0.zip).
+1. Download [visibleio_local-1.0.0.zip](https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.0.zip).
 2. In Blender, open **Edit → Preferences → Extensions → Install from Disk** and choose that zip.
 3. Enable **VisibleIO Local**.
 4. In the 3D Viewport, press `N` and open the **VisibleIO** tab.
@@ -88,7 +88,7 @@ No. PNG files are written only to the output folder you choose, or to `visibleio
 
 ### Which file do I install?
 
-Install [visibleio_local-1.0.0.zip](visibleio_local-1.0.0.zip) from **Edit → Preferences → Extensions → Install from Disk**. The zip from GitHub’s **Code → Download ZIP** is the source folder, not the extension package.
+Install [visibleio_local-1.0.0.zip](https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.0.zip) from **Edit → Preferences → Extensions → Install from Disk**. The zip from GitHub’s **Code → Download ZIP** is the source folder, not the extension package.
 
 ### Which Blender versions work?
 
