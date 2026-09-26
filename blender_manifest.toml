@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "visibleio_local"
+version = "1.0.0"
+name = "VisibleIO Local"
+tagline = "VisibleIO material configurator, local PNG stills"
+maintainer = "VisibleIO Dev Team"
+type = "add-on"
+website = "https://visibleio.com"
+icon = "icon.png"
+
+tags = ["Material", "Render"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-2.0-or-later"]
+
+[permissions]
+files = "Write rendered stills into the output folder"
