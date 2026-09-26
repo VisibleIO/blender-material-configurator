@@ -1,4 +1,4 @@
-# VisibleIO - Offline Blender Material Configurator
+# VisibleIO Local — Offline Blender Material Configurator
 
 <p align="center">
   <img alt="VisibleIO, Blender Material Configurator" src="visibleio-logo-on-dark.png" width="360">
