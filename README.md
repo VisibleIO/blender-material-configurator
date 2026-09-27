@@ -16,10 +16,14 @@ Use it when a product needs many material options and each option should be a st
 
 Install that file in Blender. Do not install the archive from GitHub’s **Code → Download ZIP**. That archive is this source folder, and Blender will not load it as an extension.
 
+<h2 align="center">Demo video</h2>
+
 <p align="center">
   <a href="https://youtu.be/jISYPx0d__Y">
-    <img alt="Play the VisibleIO Local demo on YouTube" src="https://img.youtube.com/vi/jISYPx0d__Y/maxresdefault.jpg" width="640">
+    <img alt="Demo video. Play the VisibleIO Local walkthrough on YouTube." src="https://img.youtube.com/vi/jISYPx0d__Y/maxresdefault.jpg" width="640">
   </a>
+  <br>
+  <a href="https://youtu.be/jISYPx0d__Y"><strong>▶ Play the demo video on YouTube</strong></a>
 </p>
 
 <p align="center">
