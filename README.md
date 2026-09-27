@@ -17,6 +17,14 @@ Use it when a product needs many material options and each option should be a st
 Install that file in Blender. Do not install the archive from GitHub’s **Code → Download ZIP**. That archive is this source folder, and Blender will not load it as an extension.
 
 <p align="center">
+  <a href="VisibleIO_local_demo.mp4">
+    <img alt="VisibleIO Local demo: a headphone with woven fabric, two cameras, and a compiled render queue. Select the image to play the video." src="screenshots/demo-poster.png" width="640">
+  </a>
+  <br>
+  <a href="VisibleIO_local_demo.mp4">Play the demo</a>
+</p>
+
+<p align="center">
   <img alt="VisibleIO Local Quick Start in Blender: select objects, add materials, choose the target slot, and add cameras." src="screenshots/quick-start.png" width="480">
 </p>
 
@@ -123,6 +131,8 @@ The Python code is [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later
 | `translations.py` | Interface translations |
 | `blender_manifest.toml` | Blender extension manifest, version 1.0.0 |
 | `icon.png` | Extension icon, 256×256 PNG, CC0-1.0 |
+| `VisibleIO_local_demo.mp4` | Product demo, 1080p |
+| `screenshots/demo-poster.png` | Still frame that links to the demo |
 | `LICENSE` | GPL-3.0-or-later license text |
 | `visibleio-logo-on-dark.png` | README logo |
 | `download.png` | Download button on this page |
