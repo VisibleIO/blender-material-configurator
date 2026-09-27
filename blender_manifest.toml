@@ -13,7 +13,8 @@ tags = ["Material", "Render"]
 
 blender_version_min = "4.2.0"
 
-license = ["SPDX:GPL-2.0-or-later"]
+license = ["SPDX:GPL-3.0-or-later", "SPDX:CC0-1.0"]
+copyright = ["2026 VisibleIO", "2026 VisibleIO (icon.png, CC0-1.0)"]
 
 [permissions]
 files = "Write rendered stills into the output folder"

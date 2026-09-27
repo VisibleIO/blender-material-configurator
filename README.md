@@ -112,17 +112,18 @@ No. The camera, object, and material filters only change which tasks are shown. 
 
 ### What license is the add-on?
 
-[GPL-2.0-or-later](https://spdx.org/licenses/GPL-2.0-or-later.html). Source files carry an SPDX header.
+The Python code is [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html). Source files carry an SPDX header, and the full license text is in `LICENSE`. The extension icon, `icon.png`, is [CC0-1.0](https://spdx.org/licenses/CC0-1.0.html).
 
 ## Files in this folder
 
 | File | Purpose |
 | --- | --- |
-| `visibleio_local-1.0.0.zip` | Extension to install in Blender. Four files at the archive root |
+| `visibleio_local-1.0.0.zip` | Extension to install in Blender. Five files at the archive root |
 | `__init__.py` | Add-on operators, queue, preview, and render |
 | `translations.py` | Interface translations |
 | `blender_manifest.toml` | Blender extension manifest, version 1.0.0 |
-| `icon.png` | Extension icon, 256×256 PNG |
+| `icon.png` | Extension icon, 256×256 PNG, CC0-1.0 |
+| `LICENSE` | GPL-3.0-or-later license text |
 | `visibleio-logo-on-dark.png` | README logo |
 | `download.png` | Download button on this page |
 | `README.md` | This page |

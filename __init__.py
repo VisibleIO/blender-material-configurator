@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 """VisibleIO Local — pick objects, combine their materials, render with one camera.
 
 No network, no account, no updater. The camera is not part of the combination.

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
+# SPDX-License-Identifier: GPL-3.0-or-later
 """Interface strings. English in the addon is the source language."""
 
 _ZH_HANT = {
