@@ -34,8 +34,6 @@ Install that file in Blender. Do not install the archive from GitHub’s **Code 
   <img alt="VisibleIO Local Workspace with Fabric, Metal, and Leather compiled into three variants, ready for Start Batch Render." src="screenshots/workspace.png" width="480">
 </p>
 
-Website: [https://visibleio.com](https://visibleio.com)
-
 ## Install
 
 Requires Blender 4.2 or newer.
