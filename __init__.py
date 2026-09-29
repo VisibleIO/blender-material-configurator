@@ -24,7 +24,7 @@ bl_info = {
 	"blender": (4, 2, 0),
 	"location": "View3D > Sidebar (N) > VisibleIO > VisibleIO Local",
 	"description": "VisibleIO material configurator. PNGs stay on this computer.",
-	"doc_url": "https://visibleio.com",
+	"doc_url": "https://github.com/VisibleIO/blender-material-configurator",
 	"category": "Material",
 }
 
