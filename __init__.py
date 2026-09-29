@@ -76,15 +76,19 @@ def _safe_name(value, fallback):
 	return cleaned or fallback
 
 
-def _output_filename(task_name, camera_name, used):
+def _output_filename(task_name, camera_name, used, output_dir):
+	"""Pick a PNG name that is free in this batch and not already on disk."""
 	stem = f"{_safe_name(task_name, 'Task')}_{_safe_name(camera_name, 'Camera')}"
 	candidate = stem
 	suffix = 2
-	while candidate.lower() in used:
+	while True:
+		filename = candidate + ".png"
+		taken = candidate.lower() in used or os.path.exists(os.path.join(output_dir, filename))
+		if not taken:
+			used.add(candidate.lower())
+			return filename
 		candidate = f"{stem}_{suffix}"
 		suffix += 1
-	used.add(candidate.lower())
-	return candidate + ".png"
 
 
 def _default_output_dir():
@@ -1502,11 +1506,9 @@ class VISIBLEIO_LOCAL_OT_render_all(bpy.types.Operator):
 		image.file_format = "PNG"
 		if image.color_depth not in {"8", "16"}:
 			image.color_depth = "8"
-		filename = _output_filename(job["name"], camera.name, self._used_names)
-		filepath = os.path.join(self._output_dir, filename)
 		os.makedirs(self._output_dir, exist_ok=True)
-		if os.path.exists(filepath):
-			os.remove(filepath)
+		filename = _output_filename(job["name"], camera.name, self._used_names, self._output_dir)
+		filepath = os.path.join(self._output_dir, filename)
 		self._pending_filename = filename
 		self._pending_path = filepath
 		scene.render.filepath = filepath
@@ -1545,9 +1547,9 @@ class VISIBLEIO_LOCAL_OT_render_all(bpy.types.Operator):
 		if image.color_depth not in {"8", "16"}:
 			image.color_depth = "8"
 
-		filename = _output_filename(job["name"], camera.name, self._used_names)
-		filepath = os.path.join(self._output_dir, filename)
 		os.makedirs(self._output_dir, exist_ok=True)
+		filename = _output_filename(job["name"], camera.name, self._used_names, self._output_dir)
+		filepath = os.path.join(self._output_dir, filename)
 		if self._window is not None and self._area is not None and self._region is not None:
 			override = {
 				"window": self._window,
