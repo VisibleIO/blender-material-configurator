@@ -9,8 +9,8 @@ VisibleIO Local is an offline Blender extension. It builds material combinations
 Use it when a product needs many material options and each option should be a still image next to the `.blend` file.
 
 <p align="center">
-  <a href="https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.0.zip">
-    <img alt="Download visibleio_local-1.0.0.zip for Blender 4.2 or newer" src="download.png" width="360">
+  <a href="https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.1.zip">
+    <img alt="Download visibleio_local-1.0.1.zip for Blender 4.2 or newer" src="download.png" width="360">
   </a>
 </p>
 
@@ -38,7 +38,7 @@ Install that file in Blender. Do not install the archive from GitHub’s **Code 
 
 Requires Blender 4.2 or newer.
 
-1. Download [visibleio_local-1.0.0.zip](https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.0.zip).
+1. Download [visibleio_local-1.0.1.zip](https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.1.zip).
 2. In Blender, open **Edit → Preferences → Extensions → Install from Disk** and choose that zip.
 3. Enable **VisibleIO Local**.
 4. In the 3D Viewport, press `N` and open the **VisibleIO** tab.
@@ -96,11 +96,11 @@ No. PNG files are written only to the output folder you choose, or to `visibleio
 
 ### Which file do I install?
 
-Install [visibleio_local-1.0.0.zip](https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.0.zip) from **Edit → Preferences → Extensions → Install from Disk**. The zip from GitHub’s **Code → Download ZIP** is the source folder, not the extension package.
+Install [visibleio_local-1.0.1.zip](https://github.com/VisibleIO/blender-material-configurator/raw/main/visibleio_local-1.0.1.zip) from **Edit → Preferences → Extensions → Install from Disk**. The zip from GitHub’s **Code → Download ZIP** is the source folder, not the extension package.
 
 ### Which Blender versions work?
 
-Blender 4.2 and newer. The package is a Blender extension, id `visibleio_local`, version 1.0.0, with `blender_manifest.toml`.
+Blender 4.2 and newer. The package is a Blender extension, id `visibleio_local`, version 1.0.1, with `blender_manifest.toml`.
 
 ### How are combinations counted?
 
@@ -126,10 +126,10 @@ The Python code is [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later
 
 | File | Purpose |
 | --- | --- |
-| `visibleio_local-1.0.0.zip` | Extension to install in Blender. Five files at the archive root |
+| `visibleio_local-1.0.1.zip` | Extension to install in Blender. Five files at the archive root |
 | `__init__.py` | Add-on operators, queue, preview, and render |
 | `translations.py` | Interface translations |
-| `blender_manifest.toml` | Blender extension manifest, version 1.0.0 |
+| `blender_manifest.toml` | Blender extension manifest, version 1.0.1 |
 | `icon.png` | Extension icon, 256×256 PNG, CC0-1.0 |
 | `LICENSE` | GPL-3.0-or-later license text |
 | `visibleio-logo-on-dark.png` | README logo |

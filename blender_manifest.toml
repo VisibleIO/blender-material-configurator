@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "visibleio_local"
-version = "1.0.0"
+version = "1.0.1"
 name = "VisibleIO Local"
 tagline = "VisibleIO material configurator, local PNG stills"
 maintainer = "VisibleIO Dev Team"

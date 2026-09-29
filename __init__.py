@@ -20,7 +20,7 @@ def iface_(text):
 bl_info = {
 	"name": "VisibleIO Local",
 	"author": "VisibleIO Dev Team",
-	"version": (1, 0, 0),
+	"version": (1, 0, 1),
 	"blender": (4, 2, 0),
 	"location": "View3D > Sidebar (N) > VisibleIO > VisibleIO Local",
 	"description": "VisibleIO material configurator. PNGs stay on this computer.",
