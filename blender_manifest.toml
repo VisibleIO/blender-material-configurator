@@ -6,7 +6,7 @@ name = "VisibleIO Local"
 tagline = "VisibleIO material configurator, local PNG stills"
 maintainer = "VisibleIO Dev Team"
 type = "add-on"
-website = "https://visibleio.com"
+website = "https://github.com/VisibleIO/blender-material-configurator"
 icon = "icon.png"
 
 tags = ["Material", "Render"]
